@@ -1,0 +1,22 @@
+{
+  "name": "bitocredit-gateway",
+  "version": "1.0.0",
+  "description": "nodejs wrapper for Bitocredit API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Bitocredit",
+    "API",
+    "crypto"
+  ],
+  "author": "reza motahary",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"  
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
