@@ -1,11 +1,11 @@
 const Bitocredit = require("../lib/Bitocredit");
 
 // should change
-const baseurl = "https://dev.bitocredit.com/api/";
-const token = "b9266134e3eba4be64a8b3b58b5f69df";
-const wallet_id = "1";
-const transaction_id = "1";
-const wallet_address = "1";
+const baseurl = "";
+const token = "";
+const wallet_id = "";
+const transaction_id = "";
+const wallet_address = "";
 // should change 
 
 const bitocredit = new Bitocredit(baseurl, token);
