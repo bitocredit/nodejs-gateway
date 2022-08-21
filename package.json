@@ -1,5 +1,5 @@
 {
-  "name": "bitocredit-gateway",
+  "name": "@bitocredit/nodejs-gateway",
   "version": "1.0.0",
   "description": "nodejs wrapper for Bitocredit API",
   "main": "index.js",
@@ -21,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitocredit/nodejs-gateway.git"
+    "url": "https://github.com/bitocredit/nodejs-gateway.git"
   }
 }
