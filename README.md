@@ -6,7 +6,7 @@ install package using npm
 <br>
 <br>
 ```bash
-npm install bitocredit-gateway
+npm install @bitocredit/nodejs-gateway
 ```
 
 <br>
@@ -15,7 +15,7 @@ npm install bitocredit-gateway
 and use package like this:
 
 ```javascript
-    const Bitocredit = require("bitocredit-gateway");
+    const Bitocredit = require("@bitocredit/nodejs-gateway");
     
     const baseurl = "https://bitocredit.com/api/";
     const token = "TOKEN"; // fill your token
