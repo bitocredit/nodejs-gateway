@@ -22,7 +22,7 @@ and use package like this:
     
     const Gateway = new Bitocredit(baseurl , token);
     
-    Gateway.createWallet("wallet_id") // replace wallet_id with your wallet id
+    Gateway.createWallet("wallet_id" , "network") // replace wallet_id with your wallet id and network type
            .then((data) => {
             console.log(data);
            })
@@ -51,7 +51,7 @@ endpoint : https://bitocredit.com/api/create/wallet/{token}
 <br>
 
 ```javascript
-    Gateway.createWallet("wallet_id") // replace wallet_id with your wallet id
+    Gateway.createWallet("wallet_id" , "network") // replace wallet_id with your wallet id and network type
            .then((data) => {
             console.log(data);
            })

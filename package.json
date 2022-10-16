@@ -1,6 +1,6 @@
 {
   "name": "@bitocredit/nodejs-gateway",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nodejs wrapper for Bitocredit API",
   "main": "index.js",
   "scripts": {

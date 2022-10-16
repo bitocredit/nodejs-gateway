@@ -1,17 +1,16 @@
 const Bitocredit = require("../lib/Bitocredit");
 
-// should change
 const baseurl = "";
 const token = "";
 const wallet_id = "";
 const transaction_id = "";
 const wallet_address = "";
-// should change 
+const network = "";
 
 const bitocredit = new Bitocredit(baseurl, token);
 
 test("create wallet", async () => {
-  var res = await bitocredit.createWallet(wallet_id);
+  var res = await bitocredit.createWallet(wallet_id , network);
   expect(res.status).toBe(200);
   expect(res.message).toBe("ok");
 });
