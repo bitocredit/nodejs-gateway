@@ -1,5 +1,5 @@
-<h3 align="center" >Bitocredit Nodejs package</h3>
-<h5>nodejs wrapper for Bitocredit API</h5>
+<h3 align="center" ><a href="https://bitocredit.com/document/en/post/node-js" >Bitocredit Nodejs package</a></h3>
+<h5>nodejs wrapper for <a href="https://bitocredit.com/" >Bitocredit</a> API</h5>
 
 # usage
 install package using npm
